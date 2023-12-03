@@ -1,0 +1,4 @@
+# Ignorar ficheiros do Visual Paradigm
+*.lock
+*.lck
+*.bak*
