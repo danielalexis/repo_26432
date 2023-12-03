@@ -1,3 +1,6 @@
 site_name: Residência Universitária
 theme:
   name: material
+
+nav:
+  - Home: Home.md
