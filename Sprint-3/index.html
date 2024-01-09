@@ -1,0 +1,659 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Sprint-2/">
+      
+      
+        <link rel="next" href="../Sprint-4/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+    
+    
+      
+        <title>Sprint 3 - Residência Universitária</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modelo-de-casos-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Residência Universitária" class="md-header__button md-logo" aria-label="Residência Universitária" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Residência Universitária
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sprint 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Residência Universitária" class="md-nav__button md-logo" aria-label="Residência Universitária" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Residência Universitária
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Sprint 3
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 3
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-requisicao-de-alojamento-e-servicos-uc1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de requisição de alojamento e serviços (UC1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-gestao-de-requisicoes-uc2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de gestão de requisições (UC2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-manutencao-e-gestao-dos-servicos-de-excelencia-uc3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de manutenção e gestão dos serviços de excelência (UC3)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pressupostos-e-restricoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pressupostos e Restrições
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sprint-7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprint 7
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-requisicao-de-alojamento-e-servicos-uc1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de requisição de alojamento e serviços (UC1)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-gestao-de-requisicoes-uc2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de gestão de requisições (UC2)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-caso-de-uso-de-manutencao-e-gestao-dos-servicos-de-excelencia-uc3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de caso de uso de manutenção e gestão dos serviços de excelência (UC3)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regras-de-negocio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Regras de Negócio
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pressupostos-e-restricoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pressupostos e Restrições
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="modelo-de-casos-de-uso">Modelo de Casos de Uso</h1>
+<h2 id="diagrama-de-caso-de-uso-de-requisicao-de-alojamento-e-servicos-uc1">Diagrama de caso de uso de requisição de alojamento e serviços (UC1)</h2>
+<p><img alt="Diagrama UC1" src="https://github.com/danielalexis/repo_26432/assets/23124576/462cfe79-f271-4824-b876-152096b393bb" /></p>
+<p>Descrição de cada caso de uso:
+* UC1.1: Autenticação - Para aceder a qualquer recurso no website/app, é necessário ter uma conta e fazer o login.
+* UC1.2: Fazer a requisição - Permite ao aluno fazer uma requisição de alojamento.
+* UC1.3: Cancelar a requisição - Permite ao aluno cancelar uma requisição existente existente.
+* UC1.4: Modificar a requisição - Permite ao aluno modificar uma requsição existente.
+* UC1.5: Realizar Pagamento - Permite ao aluno paguar pelas requisições e pedidos de manutenção realizados.
+* UC1.6: Consultar a requisição - Permite ao aluno consultar os detalhes da sua requisição existente.</p>
+<h2 id="diagrama-de-caso-de-uso-de-gestao-de-requisicoes-uc2">Diagrama de caso de uso de gestão de requisições (UC2)</h2>
+<p><img alt="Diagrama UC2" src="https://github.com/danielalexis/repo_26432/assets/23124576/1b578baa-9b48-41ab-9590-98fe4f087342" /></p>
+<p>Descrição de cada caso de uso:
+* UC2.1: Autenticação - Para aceder a qualquer recurso no website/app, é necessário ter uma conta e fazer o login.
+* UC2.2: Analisar requisições - Permite ao proprietário analisar asrequisições antes de tomar ações.
+* UC2.3: Verificar Disponibilidade - Permite ao proprietário verificar a disponibilidade de quartos.
+* UC2.4: Gerenciar Check-in - Permite ao proprietário registar o check-in de alunos na residência.
+* UC2.5: Gerenciar Check-out - Permite ao proprietário registar o check-out de alunos na residência.
+* UC2.6: Receber Pagamento - O proprietário recebe o pagamento efetuado pelo aluno.</p>
+<h2 id="diagrama-de-caso-de-uso-de-manutencao-e-gestao-dos-servicos-de-excelencia-uc3">Diagrama de caso de uso de manutenção e gestão dos serviços de excelência (UC3)</h2>
+<p><img alt="Diagrama UC3" src="https://github.com/danielalexis/repo_26432/assets/23124576/373aa4d9-5221-44ef-90f8-5d4faa6840df" /></p>
+<p>Descrição de cada caso de uso:
+* UC3.1: Autenticação - Para aceder a qualquer recurso no website/app, é necessário ter uma conta e fazer o login.
+* UC3.2: Receber Solicitações de Manutenção - Permite ao técnico receber e gerenciar as solicitações de manutenção dos alunos ou do proprietário.
+* UC3.3: Atender Solicitações de Manutenção - Permite ao técnico ver detalhes das solicitações de manutenção.
+* UC3.4: Registar Atividades de Manutenção - Permite ao técnico registar todas as atividades de manutenção realizadas, incluindo o que foi feito e que materiais foram utilizados.
+* UC3.5: Receber Solicitações de Serviços de Excelência - Permite ao técnico receber e gerenciar as solicitações de serviços de excelência dos alunos.
+* UC3.6: Programar e Executar Serviços de Excelência - Permite ao técnico programar e executar os serviços de excelência solicitados.
+* UC3.7: Receber Pagamento - O técnico recebe o pagamento efetuado pelo aluno.</p>
+<h2 id="regras-de-negocio">Regras de Negócio</h2>
+<ul>
+<li>
+<p>RN.01 - Regras do comportamento dos alunos durante a sua estadia na residência.</p>
+</li>
+<li>
+<p>RN.02 - Pagamento da mensalidade deve ser efetuado até ao último dia de cada mês, caso haja atraso no pagamento poderão ser aplicadas taxas de attraso ou multas.</p>
+</li>
+<li>
+<p>RN.03 - O acesso ao website, à aplicação e às informações da residência é restrito aos alunos e pessoal autorizado.</p>
+</li>
+<li>
+<p>RN.04 - O pagamento da manutenção ao técnico só é efetuado após a realização do trabalho.</p>
+</li>
+<li>
+<p>RN.05 - Os alunos podem cancelar as suas requisições sem custos até um determinado prazo antes do check-in, caso estas sejam canceladas após esse prazo custos de cancelamento serão aplicados em função do tempo entre o cancelamento e o check-in. </p>
+</li>
+</ul>
+<h2 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h2>
+<ul>
+<li>
+<p>RNF.01: O sistema deve ser capaz de responder dentro de 2 segundos, garantindo uma resposta rápida aos usuários. </p>
+</li>
+<li>
+<p>RNF.02: Os dados pessoais e financeiros dos usuários devem ser protegidos e cumprir as regulamentações de privacidade (como o RGPD e PSD2). </p>
+</li>
+<li>
+<p>RNF.03: O serviço deve estar disponível 24 horas por dia, 7 dias por semana. </p>
+</li>
+<li>
+<p>RNF.04: O sistema deve ser intuitivo e de fácil utilização.</p>
+</li>
+<li>
+<p>RNF.05: O sistema deve ser capaz de lidar com picos de demanda durante períodos de alta utilização.</p>
+</li>
+</ul>
+<h2 id="pressupostos-e-restricoes">Pressupostos e Restrições</h2>
+<p>PR.01 - Haverá um número suficiente de residências disponíveis para aluguar por parte dos proprietários ou parceiros imobiliários.</p>
+<p>PR.02 - Não existirão problemas financeiros do lado do aluno, assegurando que este consiga pagar pelo alojamento.</p>
+<p>PR.03 - Há uma restrição orçamentária que afeta o investimento disponível para o desenvolvimento da plataforma e suporte ao cliente.</p>
+<p>PR.04 - Haverá uma comunicação eficaz com os proprietários das residências para garantir a precisão das informações nos seus anúncios.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
